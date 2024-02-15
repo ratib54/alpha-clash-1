@@ -16,3 +16,10 @@ function addBackgroundColorById(elementId){
 let element = document.getElementById(elementId);
 element.classList.add('bg-orange-400');
 }
+
+// remove background color
+
+function removeBackgroundColor(removeBg){
+   let backgroundColor = document.getElementById(removeBg);
+  backgroundColor.classList.remove('bg-orange-400') ;
+}
